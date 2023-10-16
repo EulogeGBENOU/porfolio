@@ -8264,7 +8264,6 @@ strong {
     -o-transform: scale(1);
     transform: scale(1); }
   #colorlib-main-nav .logo {
-    background: url("../images/alt-services1.png") top center no-repeat;
     font-size: 44px;
     color: #fff;
     text-transform: uppercase;
@@ -8682,6 +8681,11 @@ strong {
       font-weight: 400;
       letter-spacing: 1px; }
 
+.ftco-portfolio-section .portfolio {
+  font-size: 50px;
+}
+
+
 .ftco-about-section {
   position: relative; }
   .ftco-about-section .text-wrapper {
@@ -8704,9 +8708,10 @@ strong {
         bottom: 0;
         right: 0;
         width: 1140px;
-        margin: 0 auto; }
+        margin: 0; }
         .ftco-about-section .one-half.half-text .text-inner {
           max-width: 50%; } }
+
     .ftco-about-section .one-half.half-text .text-inner .subheading {
       line-height: .8;
       font-size: 28px;
@@ -8720,7 +8725,7 @@ strong {
       -webkit-text-stroke-color: #c8913f; }
     .ftco-about-section .one-half.half-text .text-inner h3.heading {
       font-size: 44px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       font-family: "Vidaloka", Arial, serif;
       color: #fff; }
     .ftco-about-section .one-half.half-text .text-inner ul {
@@ -8738,6 +8743,12 @@ strong {
         color: #000; }
   .ftco-about-section .img {
     height: 600px; }
+
+    .ftco-about-section .one-half.half-text .text-inner .text {
+       font-size: 20px;
+       margin-bottom: 10px;
+       margin-top: 0px;
+    }
 
 .ftco-section-2 {
   position: relative;
@@ -8797,22 +8808,35 @@ strong {
       .ftco-section-2 .section-2-blocks-wrapper .img-2 {
         margin-bottom: 10px; } }
 
-.services .icon {
+
+.ftco-services h3.heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.ftco-services .services .icon {
   width: 100px;
   height: 100px;
   position: relative;
   background: #c8913f;
   margin: 0 auto;
-  border-radius: 50%; }
-  .services .icon span {
+  border-radius: 50%; 
+}
+.ftco-services .services .icon span {
     color: #fff;
-    font-size: 40px; }
+    font-size: 40px; 
+}
 
-.services .info {
-  width: 100%; }
-  .services .info h3 {
+.ftco-services .services .info {
+  width: 100%; 
+}
+
+.ftco-services .services .info h3 {
     font-size: 24px;
-    color: #fff; }
+    color: #fff; 
+}
 
 @media (min-width: 992px) {
   .ftco-featured-model {
@@ -9412,7 +9436,7 @@ textarea.form-control {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #c8913f; }
 
-.heading-section h2 {
+.ftco-about-section h2 {
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 1px;
